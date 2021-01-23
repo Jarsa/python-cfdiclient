@@ -13,11 +13,11 @@ from cfdiclient import VerificaSolicitudDescarga
 ##
 ## Constantes de Loggin
 ##
-RFC = 'ESI920427886'
-FIEL_CER = 'ejemploCer.cer'
-FIEL_KEY = 'ejemploKey.key'
-FIEL_PAS = '12345678a'
-PATH = 'certificados/'
+RFC = 'JSI140527TS9'
+FIEL_CER = 'jsi140527ts9.cer'
+FIEL_KEY = 'Claveprivada_FIEL_JSI140527TS9_20190723_092521.key'
+FIEL_PAS = 'RWnR8XZ2'
+PATH = '/Users/Ramitos/Downloads/drive-download-20210123T211237Z-001'
 
 cer_der = open(os.path.join(PATH, FIEL_CER), 'rb').read()
 key_der = open(os.path.join(PATH, FIEL_KEY), 'rb').read()
